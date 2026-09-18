@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 8px solid;
+    height: 500px;
+    width: 900px;
+    margin-left: 10px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.filho{
+    border: 7px solid blue;
+    padding: 10px;   
+    height: 70px;
+    width: 70px;
+}  
+.verde{
+    background-color: green;
+    color: white;
+    font-size: 32px;       
+} 
