@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(12, 100px);
+    gap: 2px;
+}
+
+.item{
+    background-color: aqua;
+    border: 1px solid; 
+
+}
