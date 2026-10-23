@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario em HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulario em HTML</h1>
+    <form action="#" method="post">
+
+        
+        <fieldset>
+            <legend>Casdatro do usuário</legend>
+            <label for="nomeUser">Escreva o seu nome</label>
+            <input type="text" required id="nomeUser" name="nome" placeholder="Escreva o seu nome">
+            <br><br>
+            <label for="UserEmail">Email de Contato</label> <!--Toda tag label é amarrada a uma tag input-->
+            <input type="email" id="UserEmail" name="email" required placeholder="Digite seu email" >
+            <br><br>
+            <label for="userSenha">Senha</label>
+            <input type="password" name="senha" id="userSenha" required>
+            <br><br>
+            <label for="userTel">Telefone 1</label>
+            <input type="tel" required id="userTel" pattern="[0-9]{2} [0-9]{9}"  placeholder="xx999999999">
+            <br><br>
+            <label for="userSexo">Selecione seu Gênero</label>
+            <br><br>
+            <input type="radio" required id="masc" name="genero" value="masculino">
+            <label for="masc">Masculino</label>
+            <br><br>
+            <input type="radio" required id="fem" name="genero" value="feminino">
+            <label for="masc">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dados do Curso</legend>
+        </fieldset>
+
+
+        
+
+        <button type="submit">Enviar dados</button>
+
+
+    </form>
+</body>
+</html>
